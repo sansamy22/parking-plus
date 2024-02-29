@@ -1,0 +1,83 @@
+.contenedor-salida-vehiculo {
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 20px;
+} 
+.buscador{
+    display: flex;
+    flex-direction: column;
+
+    form { 
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+
+        input {
+            padding: 1rem;
+            border-radius: 8px;
+            outline: none;
+            border: 1px solid var(--grisClaro); 
+            
+        } 
+        button { 
+        background-color: var(--azul);
+        color: white;
+        text-transform: uppercase;
+        padding: 1rem;
+        border: none;
+        border-radius: 12px; 
+        margin-top: 15px;
+        cursor: pointer;
+        }
+    }    
+} 
+
+.informacion {
+    margin-top: 20px; 
+    display: grid;
+    grid-template-columns: auto auto;
+} 
+
+.informacion > div { 
+    /*el simbolo mayo es el selecctor hijo*/
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.izquierda {
+    text-align: left;
+}
+.derecha {
+    text-align: right; 
+    font-weight: bold;
+}
+.disenoPlaca {
+    border: 1px solid #000;
+    background-color: var(--amarillo);
+    width: fit-content;
+    padding: 1rem; 
+    margin-left: auto;
+}
+.botones-acciones{
+    display: flex;
+}  
+.btnAccion {
+    padding: 1rem;
+    width: 100%;
+    margin: 1rem; 
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnCobrar{
+    background-color: var(--verde);
+}
+.btnCancelar{
+    background-color: var(--rojoPrincipal);
+}

@@ -1,0 +1,55 @@
+.contenedor-nuevo-ingreso {
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 4rem;
+    border-radius: 15px;
+}
+
+.botonNuevoVehiculo{
+    background-color: var(--verde);
+    padding: 1.3rem;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darkgreen;
+    }
+}
+
+#nuevoIngreso {
+    display: flex;
+    flex-direction: column;
+}
+
+.control-form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        margin-top: 15px;
+    }
+
+    input, select {
+        background-color: rgb(250, 250, 250);
+        display: block;
+        max-width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid var(--grisOscuro); 
+        text-transform: uppercase;    /* ojo con este*/
+
+        &:focus {
+            border: 1px solid var(--rojoPrincipal);
+            outline: none;
+        }
+    }
+    
+}

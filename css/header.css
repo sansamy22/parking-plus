@@ -1,0 +1,12 @@
+header {
+    background-color: var(--grisOscuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+}
+
+.encabezado-logo {
+    display: flex;
+    align-items: center;
+}
